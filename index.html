@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<style>
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+  }
+   .img{
+    border-radius: 15px;
+    width: 95%;
+  }
+  .container{
+    min-height: 100vh;
+    width: 100%;
+    margin: 30px;
+  }
+ .title span{
+   font-weight: bold;
+   font-size: 50px;
+   top: 615px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+ }
+ .title p{
+   font-size: 30px;
+ }
+ .title{
+   margin-top: 45px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   
+ }
+ .time{
+   margin-top: 45px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   height: 250px;
+   width: 95%;
+   display: flex;
+   justify-content: center;
+   background-color: #E9C9E98C;
+   padding-left: 20px;
+   border-radius: 10px;
+ }
+ .time span{
+   font-weight: bold;
+   font-size: 25px;
+   margin-left: 20px;
+   display: inline;
+ }
+ .time p{
+   display: inline;
+   font-size: 25px;
+ }
+ .time h1{
+   color: maroon;
+ }
+ .time ul li{
+   margin-bottom: 10px;
+ }
+ .ingredients, .instructions{
+   margin-top: 30px;
+ }
+ .ingredients h1, .instructions h1{
+   font-size: 45px;
+   color: saddlebrown;
+ }
+ .ingredients ul li{
+   padding-bottom: 20px;
+   font-size: 30px;
+   margin-top: 15px;
+   margin-left: 20px;
+ }
+  .instructions span{
+    display: inline;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .instructions p{
+    display: inline;
+    font-size: 30px;
+    line-height: 45px;
+    
+  }
+  .instructions ol{
+    font-size: 25px;
+  }
+  .instructions ol li{
+    padding-top: 20px;
+    margin-left: 20px;
+  }
+  .hr{
+    margin-top: 35px;
+  }
+  .nutritions{
+    margin-top: 35px;
+  }
+  .nutritions p{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .table{
+    display: flex;
+    justify-content: space-around;
+  }
+  .table span, h2{
+    display: inline;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .table span{
+    color: saddlebrown;
+  }
+  .nutritions hr{
+    margin-top: 20px;
+  }
+</style>
+<body>
+ <div class="container">
+   <div class="image">
+     <img src="/cook.jpeg" alt="nothing to see here" class="img">
+     <div class="title"><span>Simple Omelette Recipe</span>
+     <p>An easy and quick dish, perfect for any meal. This classic omelette combine beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables or meats.</p></div>
+   </div>
+   <div class="time">
+     <h1>Preparation Time</h1>
+     <ul>
+       <li><span>Total:</span><p>Approximately 10 minutes</p></li>
+       <li><span>Preparation:</span><p>5 minutes</p></li>
+       <li><span>Coming:</span><p>5 minutes</p></li>
+     </ul>
+   </div>
+   <div class="ingredients">
+     <h1>Ingredients</h1>
+     <ul>
+       <li>2-3 large eggs</li>
+       <li>salt, to taste</li>
+       <li>pepper, to taste</li>
+       <li>1 tablespoon of butter or oil</li>
+       <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+     </ul>
+   </div>
+   <hr>
+   <div class="instructions">
+     <h1>Instructions</h1>
+     <ol>
+       <li><span>Beat the eggs:</span><p>In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</p></li>
+       <li><span>Hear the pan:</span><p>Place a non-stick frying pan over medium heat and add butter or oil.</p></li>
+       <li><span>Cook the omelette:</span><p>Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</p></li>
+       <li><span>Add fillings (Optional):</span><p>When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</p></li>
+       <li><span>Fold and serve:</span><p>As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</p></li>
+       <li><span>Enjoy:</span><p>Serve hot, with additional salt and pepper if needed.</p></li>
+     </ol>
+   </div>
+   <hr class="hr">
+   <div class="nutritions">
+     <h1>Nutrition</h1>
+     <p>The table below shows nutrition value per serving without the additional fillings.</p>
+     <div class="table">
+       <h2>Calories</h2><span>277K</span>
+     </div>
+     <hr>
+     <div class="table">
+       <h2>Carbs</h2><span>0g</span>
+     </div>
+     <hr>
+     <div class="table">
+       <h2>Protein</h2><span>20g</span>
+     </div>
+     <hr>
+     <div class="table">
+       <h2>Fat</h2><span>22g</span>
+     </div>
+   </div>
+ </div>
+</body>
+</html>
